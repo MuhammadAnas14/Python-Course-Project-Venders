@@ -1,40 +1,16 @@
-# my_tuple = (20, 60, "hello", 62.5)
+my_tuple = (20, 60, "hello", 62.5)
 
-# hi = (25, 'a')
+hi = (25, 'a')
 
-# result = my_tuple + hi
+x = my_tuple[0]
+print(x)
 
-# print(result)
+y = my_tuple[0:3]
+print(y)
 
-# ASK USER TO INPUT 1 FOR ADDITION 
-# AND 2 FOR SUBTRACTION
+result = my_tuple + hi
 
-# IF USER SELECTS 1 THEN TAKE 2 MORE  
-# INPUTS OF OPERANDS AND PRINT THE RESULT
-
-
-# option = input("press + for addition and - for subtraction: ")
-
-# if option == "+":
-#     n1 = int(input("enter n1: "))
-#     n2 = int(input("enter n2: "))
-
-#     print(n1+n2)
-
-# elif option == "-":
-#     n1 = int(input("enter n1: "))
-#     n2 = int(input("enter n2: "))
-
-#     print(n1-n2)
-
-# else:
-#     print("error. enter + or -")
-
-
-student = {5:"anas", "age":20, "class":6}
-
-del(student)
-print(student)
+print(result)
 
 
 
