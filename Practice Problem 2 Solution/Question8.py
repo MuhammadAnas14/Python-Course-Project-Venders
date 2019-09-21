@@ -1,0 +1,11 @@
+# Write a Python program to remove “CP” and add “F.ENG”: “FUNCTIONAL
+# ENGLISH” from following dictionary:
+
+D={"CP":"COMPUTER PROGRAMMING", "FCE":"FUNDAMENTALS OF COMPUTER ENGINEERING", 
+"PST":"PAKISTAN STUDIES", "BEE":"BASICS OF ELECTRICAL ENGINEERING"}
+
+del(D["CP"])
+
+D["F.ENG"]= "FUNCTIONAL ENGLISH"
+
+print(D)
